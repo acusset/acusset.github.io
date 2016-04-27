@@ -4,275 +4,558 @@
     <meta charset="utf-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Ma Page personnelle</title>
+    <title>Antoine Cusset - CV - Développeur Web</title>
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" media="screen,projection">
     <link rel="stylesheet" href="css/materialize.css">
     <link rel="stylesheet" href="css/perso.css">
+    <link rel="stylesheet" href="css/nouislider.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.js"></script>
+    <script src="js/nouislider.js"></script>
 </head>
 <body>
 <header>
-    <div class="navbar-fixed">
-        <nav class="blue">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="hide-on-med-and-down">
-                        <li><a href="#accueil">Accueil</a></li>
-                        <li><a href="#experiences">Expériences</a></li>
-                        <li><a href="#cursus">Cursus</a></li>
-                        <li><a href="#projets">Projets</a></li>
-                        <li><a href="#loisirs">Loisirs</a></li>
-                        <li><a href="#association">Association</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#telechargements">Téléchargements</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="#accueil">Accueil</a></li>
-                        <li><a href="#experiences">Expériences</a></li>
-                        <li><a href="#cursus">Cursus</a></li>
-                        <li><a href="#projets">Projets</a></li>
-                        <li><a href="#loisirs">Loisirs</a></li>
-                        <li><a href="#association">Association</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="#telechargements">Téléchargements</a></li>
-                    </ul>
+    <div id="top-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 l2">
+                    <img src="img/portrait-128.jpg" height="128" width="128"
+                         class="circle valign" id="portrait">
+                </div>
+                <div class="col s12 m8 l10">
+                    <h1 class="blue-text text-lighten-5">Antoine Cusset</h1>
+                </div>
+                <div class="col s12 m8 offset-m4 l10 offset-l2">
+                    <h2 class="blue-text text-lighten-5">
+                        <small>Développeur Web</small>
+                    </h2>
                 </div>
             </div>
-        </nav>
+            <div class="row">
+                <div class="col offset-l2 offset-m3 l10 m9 s12">
+                    <p class="blue-text text-lighten-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                        nibh tortor,
+                        imperdiet non ante eget, ornare tincidunt dui. Mauris eleifend lectus in nibh pulvinar ornare.
+                        Nullam aliquam feugiat ex ac rutrum. Aliquam malesuada lacinia sapien sit amet consequat. Ut
+                        posuere, mauris at pellentesque convallis, libero justo eleifend elit, vitae tristique urna
+                        felis id dui. Cras nec ultrices turpis.
+                        Nullam imperdiet cursus ipsum nec eleifend. Aenean pulvinar elementum urna, vitae laoreet magna.
+                        Proin egestas gravida nunc et fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Donec vel tempus odio. Curabitur ac felis dui.</p>
+                </div>
+            </div>
+        </div>
     </div>
-</header>
 
-<main>
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="accueil">
-                    <div id="home" class="section scrollspy">
-                        <h2 class="blue-text">Bonjour</h2>
-                        <div class="divider blue"></div>
-                        <p class="caption">
-                            Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
-                            with my
-                            name printed on it? Do you see a little Asian child with a blank expression on his face
-                            sitting
-                            outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                            what you see at a toy store. And you must think you're in a toy store, because you're here
-                            shopping for an infant named Jeb.
-                        </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 m12 l6">
-                        <div class="card blue-grey darken-1">
-                            <div class="card-content white-text">
-                                <div class="row">
-                                    <div class="col s3 m3 l3">
-                                        <i class="medium material-icons white-text">insert_chart</i>
-                                    </div>
-                                    <div class="col s9 m9 l9">
-                                        <span class="card-title">Informations personnelles</span>
-                                        <p>Venez en découvrir d'avantage sur moi</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m12 l6">
-                        <div class="card blue-grey darken-1">
-                            <div class="card-content white-text">
-                                <div class="row">
-                                    <div class="col s3 m3 l3">
-                                        <i class="medium material-icons white-text">insert_chart</i>
-                                    </div>
-                                    <div class="col s9 m9 l9">
-                                        <span class="card-title">Informations personnelles</span>
-                                        <p>Venez en découvrir d'avantage sur moi</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m12 l6">
-                        <div class="card blue-grey darken-1">
-                            <div class="card-content white-text">
-                                <div class="row">
-                                    <div class="col s3 m3 l3">
-                                        <i class="medium material-icons white-text">insert_chart</i>
-                                    </div>
-                                    <div class="col s9 m9 l9">
-                                        <span class="card-title">Informations personnelles</span>
-                                        <p>Venez en découvrir d'avantage sur moi</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m12 l6">
-                        <div class="card blue-grey darken-1">
-                            <div class="card-content white-text">
-                                <div class="row">
-                                    <div class="col s3 m3 l3">
-                                        <i class="medium material-icons white-text">insert_chart</i>
-                                    </div>
-                                    <div class="col s9 m9 l9">
-                                        <span class="card-title">Informations personnelles</span>
-                                        <p>Venez en découvrir d'avantage sur moi</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col hide-on-small-only m3 l2">
-                <ul class="section table-of-contents fixed">
-                    <li><a href="#accueil">Accueil</a></li>
+    <nav class="blue">
+        <div class="nav-wrapper">
+            <div class="container">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="hide-on-med-and-down">
+                    <li><a href="#top-nav">Accueil</a></li>
                     <li><a href="#experiences">Expériences</a></li>
+                    <li><a href="#competences">Compétences</a></li>
                     <li><a href="#cursus">Cursus</a></li>
                     <li><a href="#projets">Projets</a></li>
                     <li><a href="#loisirs">Loisirs</a></li>
                     <li><a href="#association">Association</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#telechargements">Téléchargements</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="#telechargements" class="waves-effect waves-light btn">Télécharger le CV</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="#top-nav">Accueil</a></li>
+                    <li><a href="#experiences">Expériences</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#cursus">Cursus</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#loisirs">Loisirs</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="#telechargements" class="waves-effect waves-light btn">Télécharger le CV</a></li>
                 </ul>
             </div>
         </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container">
         <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="experiences">
-                    <h2 class="blue-text">Expériences</h2>
-                    <div class="divider blue"></div>
-                    <p class="caption">
-                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
-                        name printed on it? Do you see a little Asian child with a blank expression on his face sitting
-                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                        what you see at a toy store. And you must think you're in a toy store, because you're here
-                        shopping for an infant named Jeb.
-                    </p>
+            <div class="col s12 m12 l10">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="section scrollspy" id="experiences">
+                            <div class="row">
+                                <h2 class="blue-text">Expériences</h2>
+                                <div class="divider blue"></div>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie metus
+                                    mi, et
+                                    pretium tellus lobortis eget. Suspendisse sit amet ipsum sodales, luctus lacus et,
+                                    elementum
+                                    augue. Nulla facilisi. Donec ante massa, fermentum eu risus ultricies, mollis
+                                    hendrerit
+                                    felis. Proin dolor quam, interdum ac ex quis, volutpat pulvinar leo.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <ul class="collapsible popout hoverable" data-collapsible="accordion">
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <div class="valign-wrapper">
+                                                <div class="col s4 m2 l1">
+                                                    <img src="img/logo-sncf.png" alt="" class="circle valign">
+                                                </div>
+                                                <div class="col s8 m10 l11">
+                                                    <h5 class="valign flow-text">Assistant chef de projet
+                                                        <small>SNCF Mobilités</small>
+                                                    </h5>
+                                                    <h6 class="valign">Septembre 2015 - Aujourd'hui (alternance)</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <p>Second Line</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <div class="valign-wrapper">
+                                                <div class="col s3 m2 l1">
+                                                    <img src="img/foncia-logo.png" alt="" class="circle valign">
+                                                </div>
+                                                <div class="col s9 m10 l11">
+                                                    <h5 class="valign flow-text">Concepteur / Développeur
+                                                        <small>Foncia Groupe</small>
+                                                    </h5>
+                                                    <h6 class="valign">Juillet 2014 - Aout 2014 (2 mois)</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <p>Second Line</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <div class="valign-wrapper">
+                                                <div class="col s3 m2 l1">
+                                                    <img src="img/foncia-logo.png" alt="" class="circle valign">
+                                                </div>
+                                                <div class="col s9 m10 l11">
+                                                    <h5 class="valign flow-text">Stagiaire développeur web
+                                                        <small>Foncia Groupe</small>
+                                                    </h5>
+                                                    <h6 class="valign">Avril 2014 - Juin 2014 (3 mois)</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <p>Second Line</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="section scrollspy" id="cursus">
+                            <div class="row">
+                                <h2 class="blue-text">Cursus</h2>
+                                <div class="divider blue"></div>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie metus
+                                    mi, et
+                                    pretium tellus lobortis eget. Suspendisse sit amet ipsum sodales, luctus lacus et,
+                                    elementum
+                                    augue. Nulla facilisi. Donec ante massa, fermentum eu risus ultricies, mollis
+                                    hendrerit
+                                    felis. Proin dolor quam, interdum ac ex quis, volutpat pulvinar leo.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <ul class="collapsible popout hoverable" data-collapsible="expandable">
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <div class="valign-wrapper">
+                                                <div class="col s4 m2 l1">
+                                                    <img src="img/esgi-logo.png" alt="" class="circle valign">
+                                                </div>
+                                                <div class="col s8 m10 l11">
+                                                    <h5 class="valign flow-text">Mastère Développement Web
+                                                        <small>École Supérieure de Génie Informatique</small>
+                                                    </h5>
+                                                    <h6 class="valign">Septembre 2015 - Aujourd'hui</h6>
+                                                </div>
+                                                <a href="#!" class="secondary-content"><i
+                                                        class="material-icons">launch</i></a>
+                                            </div>
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <p>Second Line</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <div class="valign-wrapper">
+                                                <div class="col s4 m2 l1">
+                                                    <img src="img/upmc-logo.gif" alt="" class="circle valign">
+                                                </div>
+                                                <div class="col s8 m10 l11">
+                                                    <h5 class="valign flow-text">Licence Informatique
+                                                        <small>Université Pierre et Marie Curie</small>
+                                                    </h5>
+                                                    <h6 class="valign">2014 - 2015</h6>
+                                                </div>
+                                                <a href="#!" class="secondary-content"><i
+                                                        class="material-icons">launch</i></a>
+                                            </div>
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <p>Second Line</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <div class="valign-wrapper">
+                                                <div class="col s4 m2 l1">
+                                                    <img src="img/villetaneuse-logo.jpg" alt="" class="circle valign">
+                                                </div>
+                                                <div class="col s8 m10 l11">
+                                                    <h5 class="valign flow-text">DUT Informatique
+                                                        <small>Université Paris Nord (Villetaneuse)</small>
+                                                    </h5>
+                                                    <h6>2012 - 2014</h6>
+                                                </div>
+                                                <a href="#!" class="secondary-content"><i
+                                                        class="material-icons">launch</i></a>
+                                            </div>
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <p>Second Line</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header">
+                                            <div class="valign-wrapper">
+                                                <div class="col s4 m2 l1">
+                                                    <img src="img/upmc-logo.gif" alt="" class="circle valign">
+                                                </div>
+                                                <div class="col s8 m10 l11">
+                                                    <h5 class="valign flow-text">L2 Électronique
+                                                        <small>Université Pierre et Marie Curie</small>
+                                                    </h5>
+                                                    <h6>2008 - 2010</h6>
+                                                </div>
+                                                <a href="#!" class="secondary-content"><i
+                                                        class="material-icons">launch</i></a>
+                                            </div>
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <p>Second Line</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="section scrollspy" id="competences">
+                            <h2 class="blue-text">Compétences</h2>
+                            <div class="divider blue"></div>
+
+                            <h3>Technologies</h3>
+                            <div class="sliders-div">
+                                <div class="row">
+                                    <div class="col s4 m3 l2">
+                                        <span class="center-align">Symphony 2 / 3</span>
+                                    </div>
+                                    <div class="col s8 m9 l10">
+                                        <div class="sliders under center-align" id="comp1"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 m3 l2">
+                                        <span class="center-align">Laravel 5</span>
+                                    </div>
+                                    <div class="col s8 m9 l10">
+                                        <div class="sliders under center-align" id="comp2"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 m3 l2">
+                                        <span class="center-align">J2EE Spring</span>
+                                    </div>
+                                    <div class="col s8 m9 l10">
+                                        <div class="sliders under center-align" id="comp3"></div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4 m3 l2">
+                                        <span class="center-align">NodeJS</span>
+                                    </div>
+                                    <div class="col s8 m9 l10">
+                                        <div class="sliders under center-align" id="comp4"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="section scrollspy" id="projets">
+                            <h2 class="blue-text">Projets</h2>
+                            <div class="divider blue"></div>
+                            <p class="caption">
+                                Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                                with my
+                                name printed on it? Do you see a little Asian child with a blank expression on his face
+                                sitting
+                                outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                                that's
+                                what you see at a toy store. And you must think you're in a toy store, because you're
+                                here
+                                shopping for an infant named Jeb.
+                            </p>
+                            <div class="row">
+                                <div class="col s12 m12 l6">
+                                    <div class="card hoverable under blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <p class="card-title">Card Title</p>
+                                            <p>
+                                                I am a very simple card. I am good at containing small bits of
+                                                information.
+                                                I am convenient because I require little markup to use effectively.
+                                            </p>
+                                        </div>
+                                        <div class="card-action">
+                                            <div class="chip">
+                                                PHP
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m12 l6">
+                                    <div class="card hoverable under blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <p class="card-title">Card Title</p>
+                                            <p>
+                                                I am a very simple card. I am good at containing small bits of
+                                                information.
+                                                I am convenient because I require little markup to use effectively.
+                                            </p>
+                                        </div>
+                                        <div class="card-action">
+                                            <div class="chip">
+                                                PHP
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m12 l6">
+                                    <div class="card hoverable under blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <p class="card-title">Card Title</p>
+                                            <p>
+                                                I am a very simple card. I am good at containing small bits of
+                                                information.
+                                                I am convenient because I require little markup to use effectively.
+                                            </p>
+                                        </div>
+                                        <div class="card-action">
+                                            <div class="chip">
+                                                PHP
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col s12 m12 l6">
+                                    <div class="card hoverable under blue-grey darken-1">
+                                        <div class="card-content white-text">
+                                            <p class="card-title">Card Title</p>
+                                            <p>
+                                                I am a very simple card. I am good at containing small bits of
+                                                information.
+                                                I am convenient because I require little markup to use effectively.
+                                            </p>
+                                        </div>
+                                        <div class="card-action">
+                                            <div class="chip">
+                                                PHP
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                            <div class="chip">
+                                                J2EE
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="section scrollspy" id="loisirs">
+                            <h2 class="blue-text">Loisirs</h2>
+                            <div class="divider blue"></div>
+                            <p class="caption">
+                                Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                                with my
+                                name printed on it? Do you see a little Asian child with a blank expression on his face
+                                sitting
+                                outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                                that's
+                                what you see at a toy store. And you must think you're in a toy store, because you're
+                                here
+                                shopping for an infant named Jeb.
+                            </p>
+                            <div class="col s12 m12 l4">
+                                <div class="card hoverable under blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                        <p class="card-title">Card Title</p>
+                                        <p>
+                                            I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m12 l4">
+                                <div class="card hoverable under blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                        <p class="card-title">Card Title</p>
+                                        <p>
+                                            I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col s12 m12 l4">
+                                <div class="card hoverable under blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                        <p class="card-title">Card Title</p>
+                                        <p>
+                                            I am a very simple card. I am good at containing small bits of information.
+                                            I am convenient because I require little markup to use effectively.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <div class="section scrollspy" id="association">
+                            <h2 class="blue-text">Association</h2>
+                            <div class="divider blue"></div>
+                            <p class="caption">
+                                Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                                with my
+                                name printed on it? Do you see a little Asian child with a blank expression on his face
+                                sitting
+                                outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                                that's
+                                what you see at a toy store. And you must think you're in a toy store, because you're
+                                here
+                                shopping for an infant named Jeb.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="cursus">
-                    <h2 class="blue-text">Cursus</h2>
-                    <div class="divider blue"></div>
-                    <p class="caption">
-                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
-                        name printed on it? Do you see a little Asian child with a blank expression on his face sitting
-                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                        what you see at a toy store. And you must think you're in a toy store, because you're here
-                        shopping for an infant named Jeb.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="projets">
-                    <h2 class="blue-text">Projets</h2>
-                    <div class="divider blue"></div>
-                    <p class="caption">
-                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
-                        name printed on it? Do you see a little Asian child with a blank expression on his face sitting
-                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                        what you see at a toy store. And you must think you're in a toy store, because you're here
-                        shopping for an infant named Jeb.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="loisirs">
-                    <h2 class="blue-text">Loisirs</h2>
-                    <div class="divider blue"></div>
-                    <p class="caption">
-                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
-                        name printed on it? Do you see a little Asian child with a blank expression on his face sitting
-                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                        what you see at a toy store. And you must think you're in a toy store, because you're here
-                        shopping for an infant named Jeb.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="association">
-                    <h2 class="blue-text">Association</h2>
-                    <div class="divider blue"></div>
-                    <p class="caption">
-                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
-                        name printed on it? Do you see a little Asian child with a blank expression on his face sitting
-                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                        what you see at a toy store. And you must think you're in a toy store, because you're here
-                        shopping for an infant named Jeb.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="contact">
-                    <h2 class="blue-text">Contact</h2>
-                    <div class="divider blue"></div>
-                    <p class="caption">
-                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
-                        name printed on it? Do you see a little Asian child with a blank expression on his face sitting
-                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                        what you see at a toy store. And you must think you're in a toy store, because you're here
-                        shopping for an infant named Jeb.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m9 l10">
-                <div class="section scrollspy" id="telechargements">
-                    <h2 class="blue-text">Téléchargements</h2>
-                    <div class="divider blue"></div>
-                    <p class="caption">
-                        Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt with my
-                        name printed on it? Do you see a little Asian child with a blank expression on his face sitting
-                        outside on a mechanical helicopter that shakes when you put quarters in it? No? Well, that's
-                        what you see at a toy store. And you must think you're in a toy store, because you're here
-                        shopping for an infant named Jeb.
-                    </p>
-                </div>
+            <div class="col hide-on-med-and-down l2">
+                <ul class="section table-of-contents">
+                    <li><a href="#top-nav">Accueil</a></li>
+                    <li><a href="#experiences">Expériences</a></li>
+                    <li><a href="#cursus">Cursus</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#projets">Projets</a></li>
+                    <li><a href="#loisirs">Loisirs</a></li>
+                    <li><a href="#association">Association</a></li>
+                </ul>
             </div>
         </div>
     </div>
-
-
 </main>
 
 <footer class="page-footer blue">
     <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-text-lighten-5">You can use rows and columns here to organize your footer
-                    content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                </ul>
-            </div>
+        <div class="col l4 m6 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Gitlab</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Google+</a></li>
+            </ul>
         </div>
+    </div>
     </div>
     <div class="footer-copyright">
         <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            © 2016 Copyright Antoine Cusset
+            <a class="grey-text text-lighten-4 right" href="https://nine-baguettes.fr">Nine Baguettes</a>
         </div>
     </div>
 </footer>
@@ -281,6 +564,24 @@
     $(document).ready(function () {
         $(".button-collapse").sideNav();
         $('.scrollspy').scrollSpy();
+        $('.collapsible').collapsible({
+            accordion: true
+        });
+        var sliders = $('.sliders');
+        var slidersValue = [10, 20, 30, 40];
+        $.each(sliders, function (key, value) {
+            noUiSlider.create(value, {
+                start: slidersValue[key],
+                connect: "lower",
+                orientation: "horizontal",
+                range: {'min': 0, 'max': 100},
+                step: 1,
+                animate: false
+            });
+        });
+
+        $('nav').pushpin({top: $('nav').offset().top});
+        $('.table-of-contents').pushpin({top: $('nav').offset().top + $('nav').height(), offset: $('nav').height()});
     });
 </script>
 </body>
