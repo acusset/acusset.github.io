@@ -23,13 +23,13 @@
             <div class="row">
                 <div class="col s12 m4 l2">
                     <img src="img/portrait-128.jpg" height="128" width="128"
-                         class="circle valign" id="portrait">
+                         class="circle" id="portrait">
                 </div>
                 <div class="col s12 m8 l10">
-                    <h1 class="blue-text text-lighten-5">Antoine Cusset</h1>
+                    <h1 class="blue-text text-lighten-5 center-align">Antoine Cusset</h1>
                 </div>
                 <div class="col s12 m8 offset-m4 l10 offset-l2">
-                    <h2 class="blue-text text-lighten-5">
+                    <h2 class="blue-text text-lighten-5 center-align">
                         <small>Développeur Web</small>
                     </h2>
                 </div>
@@ -42,28 +42,35 @@
                         Nullam aliquam feugiat ex ac rutrum. Aliquam malesuada lacinia sapien sit amet consequat. Ut
                         posuere, mauris at pellentesque convallis, libero justo eleifend elit, vitae tristique urna
                         felis id dui. Cras nec ultrices turpis.
-                        Nullam imperdiet cursus ipsum nec eleifend. Aenean pulvinar elementum urna, vitae laoreet magna.
-                        Proin egestas gravida nunc et fermentum. Vestibulum ante ipsum primis in faucibus orci luctus et
-                        ultrices posuere cubilia Curae; Donec vel tempus odio. Curabitur ac felis dui.</p>
+                    </p>
                 </div>
             </div>
         </div>
     </div>
+
+  <div id="contact-modal" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
 
     <nav class="blue">
         <div class="nav-wrapper">
             <div class="container">
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="hide-on-med-and-down">
-                    <li><a href="#top-nav">Accueil</a></li>
-                    <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="#competences">Compétences</a></li>
-                    <li><a href="#cursus">Cursus</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#loisirs">Loisirs</a></li>
-                    <li><a href="#association">Association</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="#telechargements" class="waves-effect waves-light btn">Télécharger le CV</a></li>
+                    <li><a href="#top-nav" class="waves-effect waves-light modal-trigger">Accueil</a></li>
+                    <li><a href="#experiences" class="waves-effect waves-light modal-trigger">Expériences</a></li>
+                    <li><a href="#competences" class="waves-effect waves-light modal-trigger">Compétences</a></li>
+                    <li><a href="#cursus" class="waves-effect waves-light modal-trigger">Cursus</a></li>
+                    <li><a href="#projets" class="waves-effect waves-light modal-trigger">Projets</a></li>
+                    <li><a href="#loisirs" class="waves-effect waves-light modal-trigger">Loisirs</a></li>
+                    <li><a href="#association" class="waves-effect waves-light modal-trigger">Association</a></li>
+                    <li><a href="#contact-modal" class="waves-effect waves-light modal-trigger">Contact</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
                     <li><a href="#top-nav">Accueil</a></li>
@@ -72,8 +79,8 @@
                     <li><a href="#cursus">Cursus</a></li>
                     <li><a href="#projets">Projets</a></li>
                     <li><a href="#loisirs">Loisirs</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="#telechargements" class="waves-effect waves-light btn">Télécharger le CV</a></li>
+                    <li><a href="" class="waves-effect waves-light">Contact</a></li>
+                    <li><a href="#telechargements" class="waves-effect waves-light btn">CV (.pdf)</a></li>
                 </ul>
             </div>
         </div>
@@ -108,7 +115,7 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/logo-sncf.png" alt="" class="circle valign">
+                                                    <img src="img/logo-sncf.png" alt="" class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">Assistant chef de projet
@@ -126,7 +133,7 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s3 m2 l1">
-                                                    <img src="img/foncia-logo.png" alt="" class="circle valign">
+                                                    <img src="img/foncia-logo.png" alt="" class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s9 m10 l11">
                                                     <h5 class="valign flow-text">Concepteur / Développeur
@@ -144,7 +151,7 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s3 m2 l1">
-                                                    <img src="img/foncia-logo.png" alt="" class="circle valign">
+                                                    <img src="img/foncia-logo.png" alt="" class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s9 m10 l11">
                                                     <h5 class="valign flow-text">Stagiaire développeur web
@@ -187,7 +194,7 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/esgi-logo.png" alt="" class="circle valign">
+                                                    <img src="img/esgi-logo.png" alt="" class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">Mastère Développement Web
@@ -207,7 +214,7 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/upmc-logo.gif" alt="" class="circle valign">
+                                                    <img src="img/upmc-logo.gif" alt="" class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">Licence Informatique
@@ -227,7 +234,7 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/villetaneuse-logo.jpg" alt="" class="circle valign">
+                                                    <img src="img/villetaneuse-logo.jpg" alt="" class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">DUT Informatique
@@ -247,7 +254,7 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/upmc-logo.gif" alt="" class="circle valign">
+                                                    <img src="img/upmc-logo.gif" alt="" class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">L2 Électronique
@@ -271,16 +278,23 @@
                 <div class="row">
                     <div class="col s12 m12 l12">
                         <div class="section scrollspy" id="competences">
-                            <h2 class="blue-text">Compétences</h2>
-                            <div class="divider blue"></div>
-
-                            <h3>Technologies</h3>
+                            <div class="row">
+                                <h2 class="blue-text">Compétences</h2>
+                                <div class="divider blue"></div>    
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p>
+                                        Présentation de mes compétences
+                                    </p>    
+                                </div>
+                            </div>
                             <div class="sliders-div">
                                 <div class="row">
-                                    <div class="col s4 m3 l2">
-                                        <span class="center-align">Symphony 2 / 3</span>
+                                    <div class="col s4 m3 l3">
+                                        <span class="center-align">Symphony 2/3</span>
                                     </div>
-                                    <div class="col s8 m9 l10">
+                                    <div class="col s8 m9 l9">
                                         <div class="sliders under center-align" id="comp1"></div>
                                     </div>
                                 </div>
@@ -316,135 +330,75 @@
                 <div class="row">
                     <div class="col s12 m12 l12">
                         <div class="section scrollspy" id="projets">
-                            <h2 class="blue-text">Projets</h2>
-                            <div class="divider blue"></div>
-                            <p class="caption">
-                                Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
-                                with my
-                                name printed on it? Do you see a little Asian child with a blank expression on his face
-                                sitting
-                                outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
-                                that's
-                                what you see at a toy store. And you must think you're in a toy store, because you're
-                                here
-                                shopping for an infant named Jeb.
-                            </p>
                             <div class="row">
-                                <div class="col s12 m12 l6">
-                                    <div class="card hoverable under blue-grey darken-1">
-                                        <div class="card-content white-text">
-                                            <p class="card-title">Card Title</p>
-                                            <p>
-                                                I am a very simple card. I am good at containing small bits of
-                                                information.
-                                                I am convenient because I require little markup to use effectively.
-                                            </p>
-                                        </div>
-                                        <div class="card-action">
-                                            <div class="chip">
-                                                PHP
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                        </div>
+                                <h2 class="blue-text">Projets</h2>
+                                <div class="divider purple"></div>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                                    with my
+                                    name printed on it? Do you see a little Asian child with a blank expression on his face
+                                    sitting
+                                    outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                                    that's
+                                    what you see at a toy store. And you must think you're in a toy store, because you're
+                                    here
+                                    shopping for an infant named Jeb.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 m6">
+                                  <div class="card under hoverable purple">
+                                    <div class="card-content">
+                                      <span class="card-title white-text">Card Title</span>
+                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
+                                      I am convenient because I require little markup to use effectively.</p>
                                     </div>
+                                    <div class="card-action white">
+                                      <div class="chip white-text purple">Tag</div>
+                                      <div class="chip white-text purple">Tag</div>
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="col s12 m12 l6">
-                                    <div class="card hoverable under blue-grey darken-1">
-                                        <div class="card-content white-text">
-                                            <p class="card-title">Card Title</p>
-                                            <p>
-                                                I am a very simple card. I am good at containing small bits of
-                                                information.
-                                                I am convenient because I require little markup to use effectively.
-                                            </p>
-                                        </div>
-                                        <div class="card-action">
-                                            <div class="chip">
-                                                PHP
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                        </div>
+                                <div class="col s12 m6">
+                                  <div class="card under hoverable purple">
+                                    <div class="card-content">
+                                      <span class="card-title white-text">Card Title</span>
+                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
+                                      I am convenient because I require little markup to use effectively.</p>
                                     </div>
+                                    <div class="card-action white">
+                                      <div class="chip white-text purple">Tag</div>
+                                      <div class="chip white-text purple">Tag</div>
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="col s12 m12 l6">
-                                    <div class="card hoverable under blue-grey darken-1">
-                                        <div class="card-content white-text">
-                                            <p class="card-title">Card Title</p>
-                                            <p>
-                                                I am a very simple card. I am good at containing small bits of
-                                                information.
-                                                I am convenient because I require little markup to use effectively.
-                                            </p>
-                                        </div>
-                                        <div class="card-action">
-                                            <div class="chip">
-                                                PHP
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                        </div>
+                                <div class="col s12 m6">
+                                  <div class="card under hoverable purple">
+                                    <div class="card-content">
+                                      <span class="card-title white-text">Card Title</span>
+                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
+                                      I am convenient because I require little markup to use effectively.</p>
                                     </div>
+                                    <div class="card-action white">
+                                      <div class="chip white-text purple">Tag</div>
+                                      <div class="chip white-text purple">Tag</div>
+                                    </div>
+                                  </div>
                                 </div>
-                                <div class="col s12 m12 l6">
-                                    <div class="card hoverable under blue-grey darken-1">
-                                        <div class="card-content white-text">
-                                            <p class="card-title">Card Title</p>
-                                            <p>
-                                                I am a very simple card. I am good at containing small bits of
-                                                information.
-                                                I am convenient because I require little markup to use effectively.
-                                            </p>
-                                        </div>
-                                        <div class="card-action">
-                                            <div class="chip">
-                                                PHP
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                            <div class="chip">
-                                                J2EE
-                                            </div>
-                                        </div>
+                                <div class="col s12 m6">
+                                  <div class="card under hoverable purple">
+                                    <div class="card-content">
+                                      <span class="card-title white-text">Card Title</span>
+                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
+                                      I am convenient because I require little markup to use effectively.</p>
                                     </div>
+                                    <div class="card-action white">
+                                      <div class="chip white-text purple">Tag</div>
+                                      <div class="chip white-text purple">Tag</div>
+                                    </div>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -453,49 +407,62 @@
                 <div class="row">
                     <div class="col s12 m12 l12">
                         <div class="section scrollspy" id="loisirs">
-                            <h2 class="blue-text">Loisirs</h2>
-                            <div class="divider blue"></div>
-                            <p class="caption">
-                                Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
-                                with my
-                                name printed on it? Do you see a little Asian child with a blank expression on his face
-                                sitting
-                                outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
-                                that's
-                                what you see at a toy store. And you must think you're in a toy store, because you're
-                                here
-                                shopping for an infant named Jeb.
-                            </p>
-                            <div class="col s12 m12 l4">
-                                <div class="card hoverable under blue-grey darken-1">
-                                    <div class="card-content white-text">
-                                        <p class="card-title">Card Title</p>
-                                        <p>
-                                            I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.
-                                        </p>
+                            <div class="row">
+                                <h2 class="blue-text">Loisirs</h2>
+                                <div class="divider blue"></div>
+                            </div>
+                            <div class="row">
+                                <p>
+                                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                                    with my
+                                    name printed on it? Do you see a little Asian child with a blank expression on his face
+                                    sitting
+                                    outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                                    that's
+                                    what you see at a toy store. And you must think you're in a toy store, because you're
+                                    here
+                                    shopping for an infant named Jeb.
+                                </p>
+                                <div class="col s12 m12 l4">
+                                    <div class="card hoverable under blue-grey darken-1">
+                                        <div class="card-image">
+                                            <img src="img/portrait-550.jpg">
+                                            <span class="card-title">Card Title</span>
+                                        </div>
+                                        <div class="card-content white-text">
+                                            <p>
+                                                I am a very simple card. I am good at containing small bits of information.
+                                                I am convenient because I require little markup to use effectively.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col s12 m12 l4">
-                                <div class="card hoverable under blue-grey darken-1">
-                                    <div class="card-content white-text">
-                                        <p class="card-title">Card Title</p>
-                                        <p>
-                                            I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.
-                                        </p>
+                                <div class="col s12 m12 l4">
+                                    <div class="card hoverable under blue-grey darken-1">
+                                        <div class="card-image">
+                                            <img src="img/portrait-550.jpg">
+                                            <span class="card-title">Card Title</span>
+                                        </div>
+                                        <div class="card-content white-text">
+                                            <p>
+                                                I am a very simple card. I am good at containing small bits of information.
+                                                I am convenient because I require little markup to use effectively.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col s12 m12 l4">
-                                <div class="card hoverable under blue-grey darken-1">
-                                    <div class="card-content white-text">
-                                        <p class="card-title">Card Title</p>
-                                        <p>
-                                            I am a very simple card. I am good at containing small bits of information.
-                                            I am convenient because I require little markup to use effectively.
-                                        </p>
+                                <div class="col s12 m12 l4">
+                                    <div class="card hoverable under blue-grey darken-1">
+                                        <div class="card-image">
+                                            <img src="img/portrait-550.jpg">
+                                            <span class="card-title">Card Title</span>
+                                        </div>  
+                                        <div class="card-content white-text">
+                                            <p>
+                                                I am a very simple card. I am good at containing small bits of information.
+                                                I am convenient because I require little markup to use effectively.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -522,16 +489,19 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col hide-on-med-and-down l2">
-                <ul class="section table-of-contents">
-                    <li><a href="#top-nav">Accueil</a></li>
-                    <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="#cursus">Cursus</a></li>
-                    <li><a href="#competences">Compétences</a></li>
-                    <li><a href="#projets">Projets</a></li>
-                    <li><a href="#loisirs">Loisirs</a></li>
-                    <li><a href="#association">Association</a></li>
-                </ul>
+                <div class="row">
+                    <ul class="section table-of-contents">
+                        <li><a href="#top-nav">Accueil</a></li>
+                        <li><a href="#experiences">Expériences</a></li>
+                        <li><a href="#cursus">Cursus</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#loisirs">Loisirs</a></li>
+                        <li><a href="#association">Association</a></li>
+                    </ul>    
+                </div>
             </div>
         </div>
     </div>
@@ -539,16 +509,28 @@
 
 <footer class="page-footer blue">
     <div class="container">
-        <div class="col l4 m6 s12">
-            <h5 class="white-text">Links</h5>
-            <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Gitlab</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Google+</a></li>
-            </ul>
+        <div class="row">
+            <h5 class="white-text">Liens</h5>
+        </div>
+        <div class="row">
+            <div class="col s6 m4 l2">
+                <a class="waves-effect waves-light btn purple social">Facebook</a>
+            </div>
+            <div class="col s6 m4 l2">
+                <a class="waves-effect waves-light btn purple social">Facebook</a>
+            </div>
+            <div class="col s6 m4 l2">
+                <a class="waves-effect waves-light btn purple social">Facebook</a>
+            </div>
+            <div class="col s6 m4 l2">
+                <a class="waves-effect waves-light btn purple social">Facebook</a>
+            </div>
+            <div class="col s6 m4 l2">
+                <a class="waves-effect waves-light btn purple social">Facebook</a>
+            </div>
+            <div class="col s6 m4 l2">
+                <a class="waves-effect waves-light btn purple social">Facebook</a>
+            </div>
         </div>
     </div>
     </div>
@@ -559,30 +541,6 @@
         </div>
     </div>
 </footer>
-
-<script>
-    $(document).ready(function () {
-        $(".button-collapse").sideNav();
-        $('.scrollspy').scrollSpy();
-        $('.collapsible').collapsible({
-            accordion: true
-        });
-        var sliders = $('.sliders');
-        var slidersValue = [10, 20, 30, 40];
-        $.each(sliders, function (key, value) {
-            noUiSlider.create(value, {
-                start: slidersValue[key],
-                connect: "lower",
-                orientation: "horizontal",
-                range: {'min': 0, 'max': 100},
-                step: 1,
-                animate: false
-            });
-        });
-
-        $('nav').pushpin({top: $('nav').offset().top});
-        $('.table-of-contents').pushpin({top: $('nav').offset().top + $('nav').height(), offset: $('nav').height()});
-    });
-</script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
