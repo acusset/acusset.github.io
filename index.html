@@ -18,25 +18,21 @@
 </head>
 <body>
 <header>
-    <div id="top-nav">
+    <div id="accueil" class="scrollspy section">
         <div class="container">
             <div class="row">
-                <div class="col s12 m4 l2">
+                <div class="col s12 m12 l12">
                     <img src="img/portrait-128.jpg" height="128" width="128"
                          class="circle" id="portrait">
                 </div>
-                <div class="col s12 m8 l10">
-                    <h1 class="blue-text text-lighten-5 center-align">Antoine Cusset</h1>
+                <div class="col s12 m12 l12">
+                    <h1 class="white-text center-align">
+                        Antoine Cusset<br>
+                        <small class="white-text text-lighten-4">Développeur Web</small>
+                    </h1>
                 </div>
-                <div class="col s12 m8 offset-m4 l10 offset-l2">
-                    <h2 class="blue-text text-lighten-5 center-align">
-                        <small>Développeur Web</small>
-                    </h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col offset-l2 offset-m3 l10 m9 s12">
-                    <p class="blue-text text-lighten-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+                <div class="col s12 m12 l12">
+                    <p class="grey-text text-lighten-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
                         nibh tortor,
                         imperdiet non ante eget, ornare tincidunt dui. Mauris eleifend lectus in nibh pulvinar ornare.
                         Nullam aliquam feugiat ex ac rutrum. Aliquam malesuada lacinia sapien sit amet consequat. Ut
@@ -47,43 +43,30 @@
             </div>
         </div>
     </div>
-
-  <div id="contact-modal" class="modal">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
-  </div>
-
     <nav class="blue">
         <div class="nav-wrapper">
             <div class="container">
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
                 <ul class="hide-on-med-and-down">
-                    <li><a href="#top-nav" class="waves-effect waves-light modal-trigger">Accueil</a></li>
-                    <li><a href="#experiences" class="waves-effect waves-light modal-trigger">Expériences</a></li>
-                    <li><a href="#competences" class="waves-effect waves-light modal-trigger">Compétences</a></li>
-                    <li><a href="#cursus" class="waves-effect waves-light modal-trigger">Cursus</a></li>
-                    <li><a href="#projets" class="waves-effect waves-light modal-trigger">Projets</a></li>
-                    <li><a href="#loisirs" class="waves-effect waves-light modal-trigger">Loisirs</a></li>
-                    <li><a href="#association" class="waves-effect waves-light modal-trigger">Association</a></li>
-                    <li><a href="#contact-modal" class="waves-effect waves-light modal-trigger">Contact</a></li>
+                    <li><a href="#accueil" class="waves-effect waves-light">Accueil</a></li>
+                    <li><a href="#experiences" class="waves-effect waves-light">Expériences</a></li>
+                    <li><a href="#cursus" class="waves-effect waves-light">Cursus</a></li>
+                    <li><a href="#competences" class="waves-effect waves-light">Compétences</a></li>
+                    <li><a href="#projets" class="waves-effect waves-light">Projets</a></li>
+                    <li><a href="#loisirs" class="waves-effect waves-light">Loisirs</a></li>
+                    <li><a href="#association" class="waves-effect waves-light">Association</a></li>
                 </ul>
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="#top-nav">Accueil</a></li>
+                    <li><a href="#accueil">Accueil</a></li>
                     <li><a href="#experiences">Expériences</a></li>
-                    <li><a href="#competences">Compétences</a></li>
                     <li><a href="#cursus">Cursus</a></li>
+                    <li><a href="#competences">Compétences</a></li>
                     <li><a href="#projets">Projets</a></li>
                     <li><a href="#loisirs">Loisirs</a></li>
-                    <li><a href="" class="waves-effect waves-light">Contact</a></li>
+                    <li><a href="contact-modal" class="waves-effect waves-light btn modal-trigger">Contact</a></li>
                     <li><a href="#telechargements" class="waves-effect waves-light btn">CV (.pdf)</a></li>
                 </ul>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
             </div>
-        </div>
         </div>
     </nav>
 </header>
@@ -115,7 +98,8 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/logo-sncf.png" alt="" class="circle responsive-img valign">
+                                                    <img src="img/logo-sncf.png" alt=""
+                                                         class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">Assistant chef de projet
@@ -133,7 +117,8 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s3 m2 l1">
-                                                    <img src="img/foncia-logo.png" alt="" class="circle responsive-img valign">
+                                                    <img src="img/foncia-logo.png" alt=""
+                                                         class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s9 m10 l11">
                                                     <h5 class="valign flow-text">Concepteur / Développeur
@@ -151,7 +136,8 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s3 m2 l1">
-                                                    <img src="img/foncia-logo.png" alt="" class="circle responsive-img valign">
+                                                    <img src="img/foncia-logo.png" alt=""
+                                                         class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s9 m10 l11">
                                                     <h5 class="valign flow-text">Stagiaire développeur web
@@ -194,7 +180,8 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/esgi-logo.png" alt="" class="circle responsive-img valign">
+                                                    <img src="img/esgi-logo.png" alt=""
+                                                         class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">Mastère Développement Web
@@ -214,7 +201,8 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/upmc-logo.gif" alt="" class="circle responsive-img valign">
+                                                    <img src="img/upmc-logo.gif" alt=""
+                                                         class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">Licence Informatique
@@ -234,7 +222,8 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/villetaneuse-logo.jpg" alt="" class="circle responsive-img valign">
+                                                    <img src="img/villetaneuse-logo.jpg" alt=""
+                                                         class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">DUT Informatique
@@ -254,7 +243,8 @@
                                         <div class="collapsible-header">
                                             <div class="valign-wrapper">
                                                 <div class="col s4 m2 l1">
-                                                    <img src="img/upmc-logo.gif" alt="" class="circle responsive-img valign">
+                                                    <img src="img/upmc-logo.gif" alt=""
+                                                         class="circle responsive-img valign">
                                                 </div>
                                                 <div class="col s8 m10 l11">
                                                     <h5 class="valign flow-text">L2 Électronique
@@ -280,21 +270,21 @@
                         <div class="section scrollspy" id="competences">
                             <div class="row">
                                 <h2 class="blue-text">Compétences</h2>
-                                <div class="divider blue"></div>    
+                                <div class="divider blue"></div>
                             </div>
                             <div class="row">
                                 <div class="col">
                                     <p>
                                         Présentation de mes compétences
-                                    </p>    
+                                    </p>
                                 </div>
                             </div>
                             <div class="sliders-div">
                                 <div class="row">
-                                    <div class="col s4 m3 l3">
-                                        <span class="center-align">Symphony 2/3</span>
+                                    <div class="col s4 m3 l2">
+                                        <span class="right-align">Symphony 2/3</span>
                                     </div>
-                                    <div class="col s8 m9 l9">
+                                    <div class="col s8 m9 l10">
                                         <div class="sliders under center-align" id="comp1"></div>
                                     </div>
                                 </div>
@@ -336,69 +326,77 @@
                             </div>
                             <div class="row">
                                 <p>
-                                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my
+                                    shirt
                                     with my
-                                    name printed on it? Do you see a little Asian child with a blank expression on his face
+                                    name printed on it? Do you see a little Asian child with a blank expression on his
+                                    face
                                     sitting
-                                    outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                                    outside on a mechanical helicopter that shakes when you put quarters in it? No?
+                                    Well,
                                     that's
-                                    what you see at a toy store. And you must think you're in a toy store, because you're
+                                    what you see at a toy store. And you must think you're in a toy store, because
+                                    you're
                                     here
                                     shopping for an infant named Jeb.
                                 </p>
                             </div>
                             <div class="row">
                                 <div class="col s12 m6">
-                                  <div class="card under hoverable purple">
-                                    <div class="card-content">
-                                      <span class="card-title white-text">Card Title</span>
-                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
-                                      I am convenient because I require little markup to use effectively.</p>
+                                    <div class="card under hoverable purple">
+                                        <div class="card-content">
+                                            <span class="card-title white-text">Card Title</span>
+                                            <p class="white-text">I am a very simple card. I am good at containing small
+                                                bits of information.
+                                                I am convenient because I require little markup to use effectively.</p>
+                                        </div>
+                                        <div class="card-action white">
+                                            <div class="chip white-text purple">Tag</div>
+                                            <div class="chip white-text purple">Tag</div>
+                                        </div>
                                     </div>
-                                    <div class="card-action white">
-                                      <div class="chip white-text purple">Tag</div>
-                                      <div class="chip white-text purple">Tag</div>
-                                    </div>
-                                  </div>
                                 </div>
                                 <div class="col s12 m6">
-                                  <div class="card under hoverable purple">
-                                    <div class="card-content">
-                                      <span class="card-title white-text">Card Title</span>
-                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
-                                      I am convenient because I require little markup to use effectively.</p>
+                                    <div class="card under hoverable purple">
+                                        <div class="card-content">
+                                            <span class="card-title white-text">Card Title</span>
+                                            <p class="white-text">I am a very simple card. I am good at containing small
+                                                bits of information.
+                                                I am convenient because I require little markup to use effectively.</p>
+                                        </div>
+                                        <div class="card-action white">
+                                            <div class="chip white-text purple">Tag</div>
+                                            <div class="chip white-text purple">Tag</div>
+                                        </div>
                                     </div>
-                                    <div class="card-action white">
-                                      <div class="chip white-text purple">Tag</div>
-                                      <div class="chip white-text purple">Tag</div>
-                                    </div>
-                                  </div>
                                 </div>
                                 <div class="col s12 m6">
-                                  <div class="card under hoverable purple">
-                                    <div class="card-content">
-                                      <span class="card-title white-text">Card Title</span>
-                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
-                                      I am convenient because I require little markup to use effectively.</p>
+                                    <div class="card under hoverable purple">
+                                        <div class="card-content">
+                                            <span class="card-title white-text">Card Title</span>
+                                            <p class="white-text">I am a very simple card. I am good at containing small
+                                                bits of information.
+                                                I am convenient because I require little markup to use effectively.</p>
+                                        </div>
+                                        <div class="card-action white">
+                                            <div class="chip white-text purple">Tag</div>
+                                            <div class="chip white-text purple">Tag</div>
+                                        </div>
                                     </div>
-                                    <div class="card-action white">
-                                      <div class="chip white-text purple">Tag</div>
-                                      <div class="chip white-text purple">Tag</div>
-                                    </div>
-                                  </div>
                                 </div>
                                 <div class="col s12 m6">
-                                  <div class="card under hoverable purple">
-                                    <div class="card-content">
-                                      <span class="card-title white-text">Card Title</span>
-                                      <p class="white-text">I am a very simple card. I am good at containing small bits of information.
-                                      I am convenient because I require little markup to use effectively.</p>
+                                    <div class="card under hoverable purple">
+                                        <div class="card-content">
+                                            <span class="card-title white-text">Card Title</span>
+                                            <p class="white-text">I am a very simple card. I am good at containing small
+                                                bits of information.
+                                                I am convenient because I require little markup to use effectively.</p>
+                                        </div>
+                                        <div class="card-action white">
+                                            <div class="chip white-text purple">Tag</div>
+                                            <div class="chip white-text purple">Tag</div>
+                                        </div>
                                     </div>
-                                    <div class="card-action white">
-                                      <div class="chip white-text purple">Tag</div>
-                                      <div class="chip white-text purple">Tag</div>
-                                    </div>
-                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -413,13 +411,17 @@
                             </div>
                             <div class="row">
                                 <p>
-                                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my shirt
+                                    Do you see any Teletubbies in here? Do you see a slender plastic tag clipped to my
+                                    shirt
                                     with my
-                                    name printed on it? Do you see a little Asian child with a blank expression on his face
+                                    name printed on it? Do you see a little Asian child with a blank expression on his
+                                    face
                                     sitting
-                                    outside on a mechanical helicopter that shakes when you put quarters in it? No? Well,
+                                    outside on a mechanical helicopter that shakes when you put quarters in it? No?
+                                    Well,
                                     that's
-                                    what you see at a toy store. And you must think you're in a toy store, because you're
+                                    what you see at a toy store. And you must think you're in a toy store, because
+                                    you're
                                     here
                                     shopping for an infant named Jeb.
                                 </p>
@@ -431,7 +433,8 @@
                                         </div>
                                         <div class="card-content white-text">
                                             <p>
-                                                I am a very simple card. I am good at containing small bits of information.
+                                                I am a very simple card. I am good at containing small bits of
+                                                information.
                                                 I am convenient because I require little markup to use effectively.
                                             </p>
                                         </div>
@@ -445,7 +448,8 @@
                                         </div>
                                         <div class="card-content white-text">
                                             <p>
-                                                I am a very simple card. I am good at containing small bits of information.
+                                                I am a very simple card. I am good at containing small bits of
+                                                information.
                                                 I am convenient because I require little markup to use effectively.
                                             </p>
                                         </div>
@@ -456,10 +460,11 @@
                                         <div class="card-image">
                                             <img src="img/portrait-550.jpg">
                                             <span class="card-title">Card Title</span>
-                                        </div>  
+                                        </div>
                                         <div class="card-content white-text">
                                             <p>
-                                                I am a very simple card. I am good at containing small bits of information.
+                                                I am a very simple card. I am good at containing small bits of
+                                                information.
                                                 I am convenient because I require little markup to use effectively.
                                             </p>
                                         </div>
@@ -489,47 +494,62 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="col hide-on-med-and-down l2">
+
+            <div class="col hide-on-med-and-down l2" id="to-pin">
                 <div class="row">
                     <ul class="section table-of-contents">
-                        <li><a href="#top-nav">Accueil</a></li>
+                        <li><a href="#accueil">Accueil</a></li>
                         <li><a href="#experiences">Expériences</a></li>
                         <li><a href="#cursus">Cursus</a></li>
                         <li><a href="#competences">Compétences</a></li>
                         <li><a href="#projets">Projets</a></li>
                         <li><a href="#loisirs">Loisirs</a></li>
                         <li><a href="#association">Association</a></li>
-                    </ul>    
+                    </ul>
                 </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="hide-on-med-and-down">
+        <button data-target="contact-modal" class="btn modal-trigger purple" id="btn-ct">Contact</button>
+        <a href="" class="waves-effect waves-light btn purple white-text" id="btn-dl">Télécharger le CV</a>
+    </div>
+</main>
+<div id="contact-modal" class="modal">
+    <div class="modal-content">
+        <h4>Informations de contact</h4>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <p>A bunch of text</p>
             </div>
         </div>
     </div>
-</main>
-
+    <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
 <footer class="page-footer blue">
     <div class="container">
         <div class="row">
-            <h5 class="white-text">Liens</h5>
-        </div>
-        <div class="row">
             <div class="col s6 m4 l2">
-                <a class="waves-effect waves-light btn purple social">Facebook</a>
+                <a class="waves-effect waves-light btn-flat white-text social">Facebook</a>
             </div>
             <div class="col s6 m4 l2">
-                <a class="waves-effect waves-light btn purple social">Facebook</a>
+                <a class="waves-effect waves-light btn-flat white-text social">Facebook</a>
             </div>
             <div class="col s6 m4 l2">
-                <a class="waves-effect waves-light btn purple social">Facebook</a>
+                <a class="waves-effect waves-light btn-flat white-text social">Facebook</a>
             </div>
             <div class="col s6 m4 l2">
-                <a class="waves-effect waves-light btn purple social">Facebook</a>
+                <a class="waves-effect waves-light btn-flat white-text social">Facebook</a>
             </div>
             <div class="col s6 m4 l2">
-                <a class="waves-effect waves-light btn purple social">Facebook</a>
+                <a class="waves-effect waves-light btn-flat white-text social">Facebook</a>
             </div>
             <div class="col s6 m4 l2">
-                <a class="waves-effect waves-light btn purple social">Facebook</a>
+                <a class="waves-effect waves-light btn-flat white-text social">Facebook</a>
             </div>
         </div>
     </div>
