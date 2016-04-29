@@ -5,8 +5,16 @@ body {
     background-color: #e0e0e0;
 }
 
+#mobile-demo {
+    background-color: #e0e0e0;
+}
+
 .collapsible-body {
     background-color: #eeeeee;
+}
+
+.table-of-contents a.active {
+    border-left: 2px solid #ff1744;
 }
 
 main {
@@ -14,10 +22,10 @@ main {
 }
 
 #accueil {
-    background-color: #212121;
+    background-color: #01579b;
     padding-bottom: 1em;
     padding-top: 1em;
-    z-index: 500;
+    z-index: 10;
 }
 
 .under {
@@ -38,7 +46,7 @@ main {
 
 #btn-ct {
     position: fixed;
-    right: 3em;
+    right: 2em;
     bottom: 4em;
     z-index: 999;
 }
@@ -47,4 +55,16 @@ main {
     position: fixed;
     right: 2em;
     bottom: 1em;
+}
+
+.sliders.noUi-connect, .sliders div.range-label, .sliders div.noUi-handle.noUi-handle-lower {
+    background-color: #ff1744 ;
+}
+
+small.white-text, header p.white-text, nav li a, div.card-content > p {
+    opacity: 0.7;
+}
+
+i {
+    color: #ff1744;
 }
