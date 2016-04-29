@@ -1,8 +1,6 @@
 $(document).ready(function () {
     
-    $(".button-collapse").sideNav({
-         closeOnClick: true
-    });
+    $(".button-collapse").sideNav();
     
     $('.scrollspy').scrollSpy();
     
@@ -34,3 +32,7 @@ $(document).ready(function () {
         offset: $('nav').height()
     });
 });
+
+function openContactModal() {
+    $('#contact-modal').closeModal();
+}
