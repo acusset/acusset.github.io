@@ -64,3 +64,7 @@ small.white-text, header p.white-text, nav li a, div.card-content > p {
 i {
     color: #ff1744;
 }
+
+.collapsible-body strong {
+    color: #ff1744;
+}
