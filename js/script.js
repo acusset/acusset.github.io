@@ -25,11 +25,11 @@ $(document).ready(function () {
     });
 
     $('nav').pushpin({
-        top: $('nav').offset().top
+        top: $('#accueil').height()
     });
 
     $('.table-of-contents').pushpin({
-        top: $('nav').offset().top + $('nav').height(),
+        top: $('#accueil').height() + $('nav').height(),
         offset: $('nav').height()
     });
 });
