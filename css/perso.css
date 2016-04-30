@@ -65,6 +65,13 @@ i {
     color: #ff1744;
 }
 
-.collapsible-body strong {
-    color: #ff1744;
+strong {
+    color: #ff1744 !important;
+}
+
+.caption {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-align: justify;
 }
