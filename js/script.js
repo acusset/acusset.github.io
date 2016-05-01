@@ -11,7 +11,7 @@ $(document).ready(function () {
     $('.modal-trigger').leanModal();
 
     var sliders = $('.sliders');
-    var slidersValue = [75, 50, 65, 40, 70, 50, 40, 25, 25, 45, 80, 85, 65, 80];
+    var slidersValue = [75, 50, 65, 40, 70, 50, 40, 25, 15, 15, 45, 80, 85, 65, 80];
     $.each(sliders, function (key, value) {
         noUiSlider.create(value, {
             start: slidersValue[key],
