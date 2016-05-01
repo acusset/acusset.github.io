@@ -10,7 +10,7 @@ body {
 }
 
 .table-of-contents a.active {
-    border-left: 2px solid #ff1744;
+    border-left: 2px solid #1e88e5 ;
 }
 
 main {
@@ -18,7 +18,7 @@ main {
 }
 
 #accueil {
-    background-color: #01579b;
+    background-color: #212121;
     padding-bottom: 1em;
     padding-top: 1em;
     z-index: 10;
@@ -53,8 +53,16 @@ main {
     bottom: 1em;
 }
 
-.sliders.noUi-connect, .sliders div.range-label, .sliders div.noUi-handle.noUi-handle-lower {
-    background-color: #ff1744 ;
+.sliders.noUi-connect  {
+    background-color: #90caf9  ;
+}
+
+.sliders div.range-label {
+    background-color: #1e88e5  ;
+}
+
+.sliders div.noUi-handle.noUi-handle-lower {
+    background-color: #1e88e5  ;
 }
 
 small.white-text, header p.white-text, nav li a, div.card-content > p {
@@ -62,11 +70,11 @@ small.white-text, header p.white-text, nav li a, div.card-content > p {
 }
 
 i {
-    color: #ff1744;
+    color: #1e88e5 ;
 }
 
 strong {
-    color: #ff1744 !important;
+    color: #1e88e5  !important;
 }
 
 .caption {
@@ -74,4 +82,8 @@ strong {
     font-weight: 300;
     margin-bottom: 30px;
     text-align: justify;
+}
+
+blockquote {
+    border-left: 5px solid #1e88e5;
 }
