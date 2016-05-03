@@ -34,6 +34,16 @@ $(document).ready(function () {
     });
 });
 
+function countPDF() {
+    ga('send', {
+        hitType: 'event',
+        eventCategory: 'telechargement',
+        eventAction: 'pdf',
+        eventLabel: 'cv-antoine-cusset.pdf'
+    });
+    console.log("send");
+}
+
 function openContactModal() {
     $('#contact-modal').closeModal();
 }
