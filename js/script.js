@@ -35,13 +35,8 @@ $(document).ready(function () {
 });
 
 function countPDF() {
-    ga('send', {
-        hitType: 'event',
-        eventCategory: 'telechargement',
-        eventAction: 'pdf',
-        eventLabel: 'cv-antoine-cusset.pdf'
-    });
-    console.log("send");
+    ga('send', 'event', 'pdf', 'telechargement', 'cv.pdf');
+    console.log('sent to ga');
 }
 
 function openContactModal() {
